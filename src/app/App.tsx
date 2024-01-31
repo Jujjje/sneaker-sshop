@@ -12,7 +12,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="m-11">
+    <div>
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
       </QueryClientProvider>

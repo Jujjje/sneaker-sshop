@@ -14,7 +14,7 @@ class queries {
     return axios.get<ISneaker[]>(`${this.baseUrl}/sneakers`);
   }
 
-  async getSneakerById(id: number) {
+  async getSneakersById(id: number) {
     return axios.get<ISneaker>(`${this.baseUrl}/sneakers?=${id}`);
   }
 }

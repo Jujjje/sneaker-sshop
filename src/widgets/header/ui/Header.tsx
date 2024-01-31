@@ -37,7 +37,6 @@ export function Header() {
           })}
         </ul>
       </header>
-      <div className="absolute w-full h-[1px] border-[1px] border-[#EAEAEA] left-0 mt-10"></div>
     </>
   );
 }
